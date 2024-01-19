@@ -1,4 +1,4 @@
-import express from 'express';
+const express = require('express');
 import { MongoClient, ObjectID } from 'mongodb';
 const app = express();
 const port = process.env.PORT || 3000;
